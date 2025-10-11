@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="مطعم بلدي شيك - أجود المشويات البلدية الأصيلة في الإسكندرية">
+    <meta name="keywords" content="مطعم, مشويات, بلدي شيك, الإسكندرية, كباب, كفتة, ريش">
+    <title>مطعم بلدي شيك | أجود المشويات البلدية الأصيلة</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;900&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="rating-system.css">
+
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style-final-complete.css">
+</head>
+
+<body>
+    <!-- Header Navigation -->
+    <header class="header" id="header">
+        <div class="nav-container">
+            <a href="#" class="logo">
+                <i class="fas fa-drumstick-bite"></i>
+                <span>بلدي شيك</span>
+            </a>
+            <nav>
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="#hero">الرئيسية</a></li>
+                    <li><a href="#gallery">معرض الصور</a></li>
+                    <li><a href="#menu">القائمة</a></li>
+                    <li><a href="#branches">فروعنا</a></li>
+                    <li><a href="#contact">تواصل معنا</a></li>
+                </ul>
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section with Background Slideshow -->
+    <section class="hero-section" id="hero">
+        <!-- Background Slideshow -->
+        <div class="hero-slideshow">
+            <div class="slide slide-1"></div>
+            <div class="slide slide-2"></div>
+            <div class="slide slide-3"></div>
+            <div class="slide slide-4"></div>
+        </div>
+
+        <!-- Overlay -->
+        <div class="hero-overlay"></div>
+
+        <!-- Animated Particles -->
+        <div class="particles" id="particles"></div>
+
+        <!-- Hero Content -->
+        <div class="hero-content">
+            <h1 class="hero-title">مرحباً بكم في مطعم بلدي شيك</h1>
+            <h2 class="hero-subtitle">أجود المشويات البلدية الأصيلة</h2>
+            <p class="hero-description">
+                تذوق أطيب المشويات البلدية المحضرة بعناية فائقة من أجود أنواع اللحوم الطازجة
+                <br>
+                طعم لا يُقاوم في أجواء مميزة
+            </p>
+            <div class="cta-buttons">
+                <a href="#menu" class="cta-btn cta-primary">
+                    <i class="fas fa-utensils"></i> اطلب الآن
+                </a>
+                <a href="#gallery" class="cta-btn cta-secondary">
+                    <i class="fas fa-images"></i> معرض الصور
+                </a>
+            </div>
+        </div>
+
+        <!-- Scroll Indicator -->
+        <div class="scroll-indicator">
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="gallery-section" id="gallery">
+        <div class="container">
+            <h2 class="section-title">معرض صور المطعم</h2>
+
+            <div class="gallery-grid">
+                <div class="gallery-item"
+                    data-image="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=1920">
+                    <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=500&h=300&fit=crop"
+                        alt="أجواء المطعم">
+                    <div class="gallery-overlay">
+                        <div class="gallery-text">
+                            <h3>أجواء المطعم</h3>
+                            <p>جو مميز ومريح لتناول أشهى المشويات</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-image="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=1920">
+                    <img src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=500&h=300&fit=crop"
+                        alt="تحضير الطعام">
+                    <div class="gallery-overlay">
+                        <div class="gallery-text">
+                            <h3>المطبخ المفتوح</h3>
+                            <p>شاهد تحضير طعامك بأعلى معايير النظافة</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item"
+                    data-image="https://images.unsplash.com/photo-1590846406792-0adc7f938f1d?w=1920">
+                    <img src="https://images.unsplash.com/photo-1590846406792-0adc7f938f1d?w=500&h=300&fit=crop"
+                        alt="المشويات">
+                    <div class="gallery-overlay">
+                        <div class="gallery-text">
+                            <h3>المشويات الطازجة</h3>
+                            <p>أجود أنواع اللحوم المشوية على الفحم</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item"
+                    data-image="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=1920">
+                    <img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=500&h=300&fit=crop"
+                        alt="تقديم الطعام">
+                    <div class="gallery-overlay">
+                        <div class="gallery-text">
+                            <h3>تقديم مميز</h3>
+                            <p>عرض احترافي لجميع الأطباق</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-image="https://images.unsplash.com/photo-1551218808-94e220e084d2?w=1920">
+                    <img src="https://images.unsplash.com/photo-1551218808-94e220e084d2?w=500&h=300&fit=crop"
+                        alt="فريق العمل">
+                    <div class="gallery-overlay">
+                        <div class="gallery-text">
+                            <h3>فريق العمل</h3>
+                            <p>طاقم محترف لخدمتكم</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item"
+                    data-image="https://images.unsplash.com/photo-1578474846511-04ba529f0b88?w=1920">
+                    <img src="https://images.unsplash.com/photo-1578474846511-04ba529f0b88?w=500&h=300&fit=crop"
+                        alt="الديكور الداخلي">
+                    <div class="gallery-overlay">
+                        <div class="gallery-text">
+                            <h3>الديكور الداخلي</h3>
+                            <p>تصميم عصري يجمع بين الأصالة والحداثة</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section class="menu-section" id="menu">
+        <div class="container">
+            <h2 class="section-title">قائمة الطعام</h2>
+
+            <!-- Category Tabs -->
+            <div class="category-tabs" id="categoryTabs">
+                <button class="category-tab active" data-category="all">الكل</button>
+                <button class="category-tab" data-category="مشويات">المشويات</button>
+                <button class="category-tab" data-category="طواجن">الطواجن</button>
+                <button class="category-tab" data-category="وجبات">الوجبات</button>
+                <button class="category-tab" data-category="ساندوتشات">ساندوتشات</button>
+                <button class="category-tab" data-category="تعريف">التعريف</button>
+                <button class="category-tab" data-category="برجر">البرجر</button>
+                <button class="category-tab" data-category="مكرونات">مكرونات وأرز</button>
+                <button class="category-tab" data-category="ورق">ورق بلدي</button>
+            </div>
+
+            <!-- Menu Grid -->
+            <div class="menu-grid" id="menuGrid"></div>
+        </div>
+    </section>
+
+    <!-- Branches Section -->
+    <section class="branches-section" id="branches">
+        <div class="container">
+            <h2 class="section-title">فروعنا</h2>
+
+            <div class="branches-grid">
+                <div class="branch-card">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <h3>الفرع الرئيسي</h3>
+                    <p>السلطان حسين تقاطع صفية زغلول</p>
+                    <p>الإسكندرية</p>
+                    <p class="branch-phone"><strong>📞 03/4876665</strong></p>
+                    <div class="branch-hours">
+                        <i class="fas fa-clock"></i>
+                        <span>يومياً من 12 ظهراً - 2 صباحاً</span>
+                    </div>
+                </div>
+
+                <div class="branch-card">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <h3>الفرع الثاني</h3>
+                    <p>شارع فؤاد - جانب الكورنيش</p>
+                    <p>الإسكندرية</p>
+                    <p class="branch-phone"><strong>📞 01050266004</strong></p>
+                    <div class="branch-hours">
+                        <i class="fas fa-clock"></i>
+                        <span>يومياً من 12 ظهراً - 2 صباحاً</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section" id="contact">
+        <div class="container">
+            <h2 class="section-title">تواصل معنا</h2>
+
+            <div class="contact-info">
+                <div class="contact-item">
+                    <i class="fas fa-clock"></i>
+                    <h3>مواعيد العمل</h3>
+                    <p>يومياً من 12 ظهراً - 2 صباحاً</p>
+                </div>
+
+                <div class="contact-item">
+                    <i class="fas fa-shipping-fast"></i>
+                    <h3>خدمة التوصيل</h3>
+                    <p>توصيل سريع لجميع أنحاء الإسكندرية</p>
+                </div>
+
+                <div class="contact-item">
+                    <i class="fas fa-phone"></i>
+                    <h3>اتصل بنا</h3>
+                    <p>03/4876665</p>
+                    <p>01050266004</p>
+                </div>
+            </div>
+
+            <div class="social-links">
+                <a href="https://facebook.com/BaladyChic" class="social-link" target="_blank" rel="noopener">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="https://wa.me/201050266004" class="social-link" target="_blank" rel="noopener">
+                    <i class="fab fa-whatsapp"></i>
+                </a>
+                <a href="https://t.me/baladychic" class="social-link" target="_blank" rel="noopener">
+                    <i class="fab fa-telegram"></i>
+                </a>
+                <a href="https://instagram.com/baladychic" class="social-link" target="_blank" rel="noopener">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>مطعم بلدي شيك</h3>
+                    <p>أجود المشويات البلدية الأصيلة</p>
+                </div>
+                <div class="footer-section">
+                    <h4>روابط سريعة</h4>
+                    <ul>
+                        <li><a href="#hero">الرئيسية</a></li>
+                        <li><a href="#menu">القائمة</a></li>
+                        <li><a href="#branches">الفروع</a></li>
+                        <li><a href="#contact">تواصل معنا</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>تواصل معنا</h4>
+                    <p><i class="fas fa-phone"></i> 03/4876665</p>
+                    <p><i class="fas fa-mobile"></i> 01050266004</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 مطعم بلدي شيك - جميع الحقوق محفوظة</p>
+                <p>تطوير وتصميم: <strong>Meta Software</strong></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating Cart -->
+    <div class="floating-cart" id="floatingCart">
+        <i class="fas fa-shopping-cart"></i>
+        <span class="cart-count" id="cartCount">0</span>
+    </div>
+
+    <!-- Cart Modal -->
+    <div class="modal" id="cartModal">
+        <div class="modal-content">
+            <button class="modal-close" id="modalClose">
+                <i class="fas fa-times"></i>
+            </button>
+
+            <!-- Cart View -->
+            <div id="cartView">
+                <h2 class="modal-title">سلة المشتريات</h2>
+                <div class="cart-items" id="cartItems"></div>
+                <div class="cart-total">
+                    الإجمالي: <span id="cartTotalAmount">0</span> جنيه
+                </div>
+                <button class="step-btn next-btn" id="proceedToCheckout">
+                    إتمام الطلب
+                </button>
+            </div>
+
+            <!-- Step 1: Order Type -->
+            <div class="checkout-steps" id="step1">
+                <h2 class="modal-title">اختر نوع الطلب</h2>
+                <div class="order-type-buttons">
+                    <div class="order-type-btn" data-type="delivery">
+                        <i class="fas fa-motorcycle"></i>
+                        <p>طلب خارجي (دليفري)</p>
+                    </div>
+                    <div class="order-type-btn" data-type="dine-in">
+                        <i class="fas fa-utensils"></i>
+                        <p>داخل المطعم</p>
+                    </div>
+                </div>
+                <div class="step-buttons">
+                    <button class="step-btn prev-btn" onclick="showCartView()">رجوع</button>
+                    <button class="step-btn next-btn" id="nextToStep2">التالي</button>
+                </div>
+            </div>
+
+            <!-- Step 2: Branch Selection -->
+            <div class="checkout-steps" id="step2">
+                <h2 class="modal-title">اختر الفرع</h2>
+                <div class="branch-options">
+                    <div class="branch-option" data-branch="main">
+                        <div class="branch-name">الفرع الرئيسي</div>
+                        <p>السلطان حسين تقاطع صفية زغلول - الإسكندرية</p>
+                        <p>📞 03/4876665</p>
+                    </div>
+                    <div class="branch-option" data-branch="second">
+                        <div class="branch-name">الفرع الثاني</div>
+                        <p>شارع فؤاد - جانب الكورنيش - الإسكندرية</p>
+                        <p>📞 01050266004</p>
+                    </div>
+                </div>
+                <div class="step-buttons">
+                    <button class="step-btn prev-btn" onclick="showStep(1)">رجوع</button>
+                    <button class="step-btn next-btn" id="nextToStep3">التالي</button>
+                </div>
+            </div>
+
+            <!-- Step 3: Customer Information -->
+            <div class="checkout-steps" id="step3">
+                <h2 class="modal-title">بيانات الطلب</h2>
+                <form id="orderForm">
+                    <div class="form-group">
+                        <label>الاسم *</label>
+                        <input type="text" id="customerName" required>
+                    </div>
+                    <div class="form-group">
+                        <label>رقم الهاتف *</label>
+                        <input type="tel" id="customerPhone" required>
+                    </div>
+                    <div class="form-group" id="tableNumberGroup" style="display: none;">
+                        <label>رقم الطاولة *</label>
+                        <input type="text" id="tableNumber">
+                    </div>
+                    <div class="form-group" id="addressGroup" style="display: none;">
+                        <label>العنوان بالتفصيل *</label>
+                        <textarea id="customerAddress" rows="3"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label>طريقة الدفع *</label>
+                        <select id="paymentMethod" required>
+                            <option value="">اختر طريقة الدفع</option>
+                            <option value="cash">كاش عند الاستلام</option>
+                            <option value="card">بطاقة ائتمانية</option>
+                            <option value="wallet">محفظة إلكترونية</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>ملاحظات إضافية</label>
+                        <textarea id="orderNotes" rows="3"></textarea>
+                    </div>
+                </form>
+                <div class="step-buttons">
+                    <button class="step-btn prev-btn" onclick="showStep(2)">رجوع</button>
+                    <button class="step-btn next-btn" id="nextToStep4">التالي</button>
+                </div>
+            </div>
+
+            <!-- Step 4: Order Summary -->
+            <div class="checkout-steps" id="step4">
+                <h2 class="modal-title">مراجعة الطلب</h2>
+                <div class="order-summary" id="orderSummary"></div>
+                <div class="step-buttons">
+                    <button class="step-btn prev-btn" onclick="showStep(3)">رجوع</button>
+                    <button class="step-btn next-btn" id="confirmOrder">
+                        <span id="confirmText">تأكيد الطلب وإرسال</span>
+                        <span class="loading hidden" id="loadingSpinner"></span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Gallery Modal -->
+    <div class="gallery-modal" id="galleryModal">
+        <div class="gallery-modal-content">
+            <span class="close-gallery" id="closeGallery">&times;</span>
+            <img class="modal-image" id="modalImage" src="" alt="">
+        </div>
+    </div>
+
+    <!-- Custom JavaScript -->
+    <script src="script-final-complete.js"></script>
+    <script src="rating-system.js"></script>
+
+</body>
+
+</html>
