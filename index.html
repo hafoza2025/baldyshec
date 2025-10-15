@@ -59,6 +59,14 @@
   document.documentElement.classList.remove('dark');
   document.body.classList.remove('dark');
 </script>
+<script>
+  if (navigator.userAgent.includes('SamsungBrowser')) {
+    const msg = document.createElement('div');
+    msg.textContent = 'للحفاظ على الألوان الأصلية، يُفضل تعطيل الوضع الداكن الإجباري في إعدادات متصفح Samsung Internet.';
+    msg.style.cssText = 'position:fixed;bottom:0;left:0;right:0;background:#fff;color:#000;padding:10px;text-align:center;z-index:9999;font-size:14px;';
+    document.body.appendChild(msg);
+  }
+</script>
 
 
 </head>
