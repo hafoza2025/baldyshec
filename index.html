@@ -21,6 +21,28 @@
     <!-- Custom CSS -->
     <link rel="stylesheet" href="style-final-complete.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <meta name="color-scheme" content="light">
+<style>
+  :root {
+    color-scheme: light;
+    forced-color-adjust: none;
+  }
+  html, body {
+    background-color: #ffffff !important;
+    color: #000000 !important;
+  }
+</style>
+<script>
+  // يجبر الوضع الفاتح في كل الأحوال
+  const mq = window.matchMedia('(prefers-color-scheme: dark)');
+  if (mq.matches) {
+    document.documentElement.style.colorScheme = 'light';
+    document.documentElement.style.backgroundColor = '#fff';
+    document.body.style.backgroundColor = '#fff';
+    document.body.style.color = '#000';
+  }
+</script>
+
 
 </head>
 
