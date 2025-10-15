@@ -5,416 +5,1192 @@
 
 // ========== بيانات القائمة المحدثة مع الوصف والتقييم ==========
 const menuData = [
-    // المشويات
+    // شوربات
     {
         id: 1,
-        name: "ريش ضاني كاملة",
-        category: "مشويات",
-        price: 450,
-        image: "https://images.unsplash.com/photo-1529692236671-f1f6cf9683ba?w=400&h=300&fit=crop",
-        description: "ريش ضاني طازجة مشوية على الفحم مع البهارات البلدية الأصيلة",
-        rating: 5,
-        ratingCount: 127,
-        isSpecial: true
-    },
-    {
-        id: 2,
-        name: "ريش ضاني نصف",
-        category: "مشويات",
-        price: 230,
-        image: "https://images.unsplash.com/photo-1529692236671-f1f6cf9683ba?w=400&h=300&fit=crop",
-        description: "نصف كيلو ريش ضاني مشوية بعناية فائقة",
-        rating: 5,
-        ratingCount: 98
-    },
-    {
-        id: 3,
-        name: "كباب ضاني كاملة",
-        category: "مشويات",
-        price: 420,
-        image: "https://images.unsplash.com/photo-1603360946369-dc9bb6258143?w=400&h=300&fit=crop",
-        description: "كباب ضاني بلدي محضر من أجود أنواع اللحم الطازج",
-        rating: 5,
-        ratingCount: 156,
-        isSpecial: true
-    },
-    {
-        id: 4,
-        name: "كباب ضاني نصف",
-        category: "مشويات",
-        price: 215,
-        image: "https://images.unsplash.com/photo-1603360946369-dc9bb6258143?w=400&h=300&fit=crop",
-        description: "نصف كيلو كباب ضاني مشوي بالبهارات الخاصة",
-        rating: 5,
+        name: "شوربة خضار",
+        category: "شوربات",
+        price: 50,
+        image: "https://images.unsplash.com/photo-1547592166-23ac45744acd?w=400&h=300&fit=crop",
+        description: "شوربة خضار ساخنة بالخضروات الطازجة المتنوعة",
+        rating: 4.5,
         ratingCount: 89
     },
     {
-        id: 5,
-        name: "شيش كباب",
-        category: "مشويات",
-        price: 180,
-        image: "https://images.unsplash.com/photo-1607623814075-e51df1bdc82f?w=400&h=300&fit=crop",
-        description: "شيش كباب طري ومشوي على الفحم الطبيعي",
-        rating: 4.5,
-        ratingCount: 134
-    },
-    {
-        id: 6,
-        name: "كفتة ضاني",
-        category: "مشويات",
-        price: 160,
-        image: "https://images.unsplash.com/photo-1529042410759-befb1204b468?w=400&h=300&fit=crop",
-        description: "كفتة ضاني بلدية محضرة بطريقة خاصة ومشوية بإتقان",
-        rating: 5,
-        ratingCount: 201
-    },
-    {
-        id: 7,
-        name: "شيش طاووق",
-        category: "مشويات",
-        price: 150,
-        image: "https://images.unsplash.com/photo-1599487488170-d11ec9c172f0?w=400&h=300&fit=crop",
-        description: "صدور فراخ متبلة بتتبيلة خاصة ومشوية بعناية",
-        rating: 4.5,
-        ratingCount: 178
-    },
-    {
-        id: 8,
-        name: "فراخ مشوية",
-        category: "مشويات",
-        price: 200,
-        image: "https://images.unsplash.com/photo-1598103442097-8b74394b95c6?w=400&h=300&fit=crop",
-        description: "فراخ كاملة مشوية بالبهارات البلدية اللذيذة",
-        rating: 5,
-        ratingCount: 143
-    },
-
-    // الطواجن
-    {
-        id: 9,
-        name: "طاجن لحمة بالخضار",
-        category: "طواجن",
-        price: 120,
-        image: "https://images.unsplash.com/photo-1547592166-23ac45744acd?w=400&h=300&fit=crop",
-        description: "طاجن لحمة طازجة مع خضار موسمية مطبوخة بإتقان",
-        rating: 4.5,
-        ratingCount: 92
-    },
-    {
-        id: 10,
-        name: "طاجن لحمة بالبصل",
-        category: "طواجن",
-        price: 110,
-        image: "https://images.unsplash.com/photo-1547592166-23ac45744acd?w=400&h=300&fit=crop",
-        description: "طاجن لحمة بالبصل المكرمل والصلصة الشهية",
+        id: 2,
+        name: "شوربة لسان",
+        category: "شوربات",
+        price: 55,
+        image: "https://images.unsplash.com/photo-1588566565463-180a5b2090d2?w=400&h=300&fit=crop",
+        description: "شوربة لسان عصفور بالصلصة الحمراء الطازجة",
         rating: 4,
         ratingCount: 67
     },
     {
-        id: 11,
-        name: "طاجن لحمة بالبطاطس",
-        category: "طواجن",
-        price: 115,
+        id: 3,
+        name: "شوربة كوارع",
+        category: "شوربات",
+        price: 170,
+        image: "https://images.unsplash.com/photo-1604908815031-ff53e055ef30?w=400&h=300&fit=crop",
+        description: "شوربة كوارع غنية بالكولاجين والنكهة الأصيلة",
+        rating: 5,
+        ratingCount: 145,
+        isSpecial: true
+    },
+    {
+        id: 4,
+        name: "شوربة حمام",
+        category: "شوربات",
+        price: 80,
         image: "https://images.unsplash.com/photo-1547592166-23ac45744acd?w=400&h=300&fit=crop",
-        description: "طاجن لحمة مع بطاطس مقلية ذهبية اللون",
+        description: "شوربة حمام دافئة بالتوابل البلدية الأصيلة",
         rating: 4.5,
         ratingCount: 78
     },
     {
-        id: 12,
-        name: "طاجن لسان عصفور",
-        category: "طواجن",
-        price: 100,
-        image: "https://images.unsplash.com/photo-1551248429-40975aa4de74?w=400&h=300&fit=crop",
-        description: "طاجن لسان عصفور بالصلصة الحمراء الطازجة",
-        rating: 4,
-        ratingCount: 54
+        id: 5,
+        name: "شوربة كريمة",
+        category: "شوربات",
+        price: 80,
+        image: "https://images.unsplash.com/photo-1476718406336-bb5a9690ee2a?w=400&h=300&fit=crop",
+        description: "شوربة كريمة ناعمة وغنية بنكهة الخضار",
+        rating: 4.5,
+        ratingCount: 92
     },
 
-    // الوجبات
+    // مقبلات
     {
-        id: 13,
-        name: "وجبة فراخ شيش",
-        category: "وجبات",
-        price: 140,
-        image: "https://images.unsplash.com/photo-1632778149955-e80f8ceca2e8?w=400&h=300&fit=crop",
-        description: "وجبة كاملة مع فراخ شيش، أرز، سلطة ومخللات",
-        rating: 5,
-        ratingCount: 112,
-        isSpecial: true
-    },
-    {
-        id: 14,
-        name: "وجبة شيش وطاووق",
-        category: "وجبات",
-        price: 155,
-        image: "https://images.unsplash.com/photo-1632778149955-e80f8ceca2e8?w=400&h=300&fit=crop",
-        description: "خليط مميز من الشيش كباب والطاووق مع إضافات",
-        rating: 5,
-        ratingCount: 98
-    },
-    {
-        id: 15,
-        name: "وجبة كفتة بلدي",
-        category: "وجبات",
-        price: 135,
-        image: "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=400&h=300&fit=crop",
-        description: "وجبة كفتة بلدي شهية مع أرز وسلطة طازجة",
-        rating: 4.5,
-        ratingCount: 87
-    },
-    {
-        id: 16,
-        name: "وجبة كفتة اسكندراني",
-        category: "وجبات",
-        price: 130,
-        image: "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=400&h=300&fit=crop",
-        description: "كفتة اسكندراني مع طحينة وخضار وخبز طازج",
-        rating: 4.5,
-        ratingCount: 76
-    },
-
-    // ساندوتشات
-    {
-        id: 17,
-        name: "سندوتش كفتة مشوي",
-        category: "ساندوتشات",
-        price: 45,
-        image: "https://images.unsplash.com/photo-1619740455993-32e66b3c9e27?w=400&h=300&fit=crop",
-        description: "سندوتش كفتة مشوية مع خضار وصلصة خاصة",
-        rating: 4.5,
-        ratingCount: 234
-    },
-    {
-        id: 18,
-        name: "سندوتش شيش طاووق",
-        category: "ساندوتشات",
-        price: 40,
-        image: "https://images.unsplash.com/photo-1619740455993-32e66b3c9e27?w=400&h=300&fit=crop",
-        description: "سندوتش طاووق طري مع ثومية وخضار طازجة",
-        rating: 5,
-        ratingCount: 198
-    },
-    {
-        id: 19,
-        name: "سندوتش ريش",
-        category: "ساندوتشات",
-        price: 50,
-        image: "https://images.unsplash.com/photo-1619740455993-32e66b3c9e27?w=400&h=300&fit=crop",
-        description: "سندوتش ريش ضاني مشوية بالبهارات البلدية",
-        rating: 5,
-        ratingCount: 165
-    },
-    {
-        id: 20,
-        name: "سندوتش سجق",
-        category: "ساندوتشات",
-        price: 35,
-        image: "https://images.unsplash.com/photo-1621852004158-f3bc188ace2d?w=400&h=300&fit=crop",
-        description: "سجق بلدي حار مع صلصة وخضار",
+        id: 6,
+        name: "طحينة",
+        category: "مقبلات",
+        price: 25,
+        image: "https://images.unsplash.com/photo-1589647363585-f4a7d3877b10?w=400&h=300&fit=crop",
+        description: "طحينة سائلة بالليمون والثوم",
         rating: 4,
-        ratingCount: 143
-    },
-    {
-        id: 21,
-        name: "سندوتش صغير",
-        category: "ساندوتشات",
-        price: 30,
-        image: "https://images.unsplash.com/photo-1621852004158-f3bc188ace2d?w=400&h=300&fit=crop",
-        description: "سندوتش صغير بالبهارات والطحينة",
-        rating: 4,
-        ratingCount: 121
-    },
-    {
-        id: 22,
-        name: "سندوتش كبدة بانيه",
-        category: "ساندوتشات",
-        price: 38,
-        image: "https://images.unsplash.com/photo-1621852004158-f3bc188ace2d?w=400&h=300&fit=crop",
-        description: "كبدة بانيه مقرمشة مع خضار وصلصة",
-        rating: 4.5,
         ratingCount: 156
     },
     {
-        id: 23,
-        name: "سندوتش كبدة اسكندراني",
-        category: "ساندوتشات",
-        price: 40,
-        image: "https://images.unsplash.com/photo-1621852004158-f3bc188ace2d?w=400&h=300&fit=crop",
-        description: "كبدة اسكندراني بالفلفل الحار والطحينة",
-        rating: 5,
-        ratingCount: 189
-    },
-
-    // التعريف
-    {
-        id: 24,
-        name: "سندوتش طرب",
-        category: "تعريف",
-        price: 42,
-        image: "https://images.unsplash.com/photo-1603133872878-684f208fb84b?w=400&h=300&fit=crop",
-        description: "طرب مشوي بنكهة لا تقاوم مع التوابل",
+        id: 7,
+        name: "بابا غنوج",
+        category: "مقبلات",
+        price: 25,
+        image: "https://images.unsplash.com/photo-1600803907087-f56d462fd26b?w=400&h=300&fit=crop",
+        description: "باذنجان مشوي بالطحينة والبهارات",
         rating: 4.5,
+        ratingCount: 134
+    },
+    {
+        id: 8,
+        name: "سلطة بلدي خضراء",
+        category: "مقبلات",
+        price: 25,
+        image: "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=400&h=300&fit=crop",
+        description: "سلطة خضراء طازجة بالخضروات الموسمية",
+        rating: 4,
         ratingCount: 98
     },
     {
-        id: 25,
-        name: "رغيف جواوشي بلدي",
-        category: "تعريف",
-        price: 55,
-        image: "https://images.unsplash.com/photo-1603133872878-684f208fb84b?w=400&h=300&fit=crop",
-        description: "رغيف جواوشي بلدي محشي لحمة مفرومة",
-        rating: 5,
-        ratingCount: 145
-    },
-    {
-        id: 26,
-        name: "رغيف جواوشي كوثة",
-        category: "تعريف",
-        price: 60,
-        image: "https://images.unsplash.com/photo-1603133872878-684f208fb84b?w=400&h=300&fit=crop",
-        description: "جواوشي بالكوثة المفرومة والتوابل الخاصة",
-        rating: 4.5,
+        id: 9,
+        name: "مخلل",
+        category: "مقبلات",
+        price: 25,
+        image: "https://images.unsplash.com/photo-1589621316382-008455b857cd?w=400&h=300&fit=crop",
+        description: "مخلل مشكل بلدي حامض",
+        rating: 4,
         ratingCount: 87
     },
     {
-        id: 27,
-        name: "رغيف جواوشي ثالث",
-        category: "تعريف",
-        price: 58,
-        image: "https://images.unsplash.com/photo-1603133872878-684f208fb84b?w=400&h=300&fit=crop",
-        description: "جواوشي بالثالث والبصل المكرمل",
+        id: 10,
+        name: "بنجر",
+        category: "مقبلات",
+        price: 25,
+        image: "https://images.unsplash.com/photo-1590777577543-73678c91f26c?w=400&h=300&fit=crop",
+        description: "سلطة بنجر بالليمون والبهارات",
         rating: 4,
         ratingCount: 76
     },
     {
-        id: 28,
-        name: "رغيف جواوشي بالجبنة الرومي",
-        category: "تعريف",
-        price: 65,
-        image: "https://images.unsplash.com/photo-1603133872878-684f208fb84b?w=400&h=300&fit=crop",
-        description: "جواوشي باللحمة والجبنة الرومي المذابة",
-        rating: 5,
-        ratingCount: 112,
-        isSpecial: true
-    },
-
-    // البرجر
-    {
-        id: 29,
-        name: "برجر سچل مع فرايز",
-        category: "برجر",
-        price: 70,
-        image: "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=400&h=300&fit=crop",
-        description: "برجر لحم طازج مع جبنة وخضار وبطاطس مقلية",
+        id: 11,
+        name: "ثومية",
+        category: "مقبلات",
+        price: 30,
+        image: "https://images.unsplash.com/photo-1618897996318-5a901fa6ca71?w=400&h=300&fit=crop",
+        description: "ثومية كريمية كثيفة القوام",
         rating: 4.5,
         ratingCount: 167
     },
     {
-        id: 30,
-        name: "برجر دبل مع فرايز",
-        category: "برجر",
-        price: 90,
-        image: "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=400&h=300&fit=crop",
-        description: "برجر دبل لحم بالجبنة والخضار مع فرايز مقرمشة",
-        rating: 5,
-        ratingCount: 134,
-        isSpecial: true
-    },
-
-    // مكرونات وأرز
-    {
-        id: 31,
-        name: "مكرونة بالبشاميل واللحمة",
-        category: "مكرونات",
-        price: 85,
-        image: "https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=400&h=300&fit=crop",
-        description: "مكرونة بشاميل باللحمة المفرومة والجبنة",
-        rating: 5,
-        ratingCount: 198
-    },
-    {
-        id: 32,
-        name: "مكرونة بالجبنة",
-        category: "مكرونات",
-        price: 75,
-        image: "https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=400&h=300&fit=crop",
-        description: "مكرونة بالجبنة الموزاريلا المذابة",
-        rating: 4.5,
-        ratingCount: 145
-    },
-    {
-        id: 33,
-        name: "أرز بالخلطة",
-        category: "مكرونات",
-        price: 60,
-        image: "https://images.unsplash.com/photo-1596797038530-2c107229654b?w=400&h=300&fit=crop",
-        description: "أرز بالخلطة المميزة والمكسرات",
+        id: 12,
+        name: "كول سلو",
+        category: "مقبلات",
+        price: 30,
+        image: "https://images.unsplash.com/photo-1625944525533-473f1a3d54e7?w=400&h=300&fit=crop",
+        description: "سلطة كرنب بالمايونيز والجزر",
         rating: 4,
-        ratingCount: 87
+        ratingCount: 112
     },
     {
-        id: 34,
-        name: "أرز بالكبدة",
-        category: "مكرونات",
-        price: 65,
-        image: "https://images.unsplash.com/photo-1596797038530-2c107229654b?w=400&h=300&fit=crop",
-        description: "أرز بالكبدة والبصل المكرمل",
+        id: 13,
+        name: "حمص",
+        category: "مقبلات",
+        price: 25,
+        image: "https://images.unsplash.com/photo-1600326644374-5f0e0c600af0?w=400&h=300&fit=crop",
+        description: "حمص بالطحينة والليمون",
         rating: 4.5,
+        ratingCount: 189
+    },
+    {
+        id: 14,
+        name: "بطاطس",
+        category: "مقبلات",
+        price: 25,
+        image: "https://images.unsplash.com/photo-1573080496219-bb080dd4f877?w=400&h=300&fit=crop",
+        description: "سلطة بطاطس باردة",
+        rating: 4,
         ratingCount: 98
     },
     {
-        id: 35,
-        name: "فتة سادة",
-        category: "مكرونات",
+        id: 15,
+        name: "بطاطس فرايز",
+        category: "مقبلات",
         price: 50,
+        image: "https://images.unsplash.com/photo-1573080496219-bb080dd4f877?w=400&h=300&fit=crop",
+        description: "بطاطس مقلية مقرمشة",
+        rating: 4.5,
+        ratingCount: 234
+    },
+
+    // فتة
+    {
+        id: 16,
+        name: "فتة كوارع",
+        category: "فتة",
+        price: 330,
+        image: "https://images.unsplash.com/photo-1645177628172-a94c30a5e8d2?w=400&h=300&fit=crop",
+        description: "فتة كوارع بالخل والثوم والأرز",
+        rating: 5,
+        ratingCount: 178,
+        isSpecial: true
+    },
+    {
+        id: 17,
+        name: "فتة موزة ضاني",
+        category: "فتة",
+        price: 490,
+        image: "https://images.unsplash.com/photo-1645177628172-a94c30a5e8d2?w=400&h=300&fit=crop",
+        description: "فتة موزة ضاني بالخلطة الخاصة",
+        rating: 5,
+        ratingCount: 201,
+        isSpecial: true
+    },
+    {
+        id: 18,
+        name: "فتة موزة بتلو",
+        category: "فتة",
+        price: 500,
+        image: "https://images.unsplash.com/photo-1645177628172-a94c30a5e8d2?w=400&h=300&fit=crop",
+        description: "فتة موزة بتلو طرية ولذيذة",
+        rating: 5,
+        ratingCount: 189,
+        isSpecial: true
+    },
+    {
+        id: 19,
+        name: "فتة سادة",
+        category: "فتة",
+        price: 80,
         image: "https://images.unsplash.com/photo-1645177628172-a94c30a5e8d2?w=400&h=300&fit=crop",
         description: "فتة خبز بالأرز والثوم والخل",
         rating: 4,
         ratingCount: 76
     },
-    {
-        id: 36,
-        name: "فتة بالكبدة",
-        category: "مكرونات",
-        price: 70,
-        image: "https://images.unsplash.com/photo-1645177628172-a94c30a5e8d2?w=400&h=300&fit=crop",
-        description: "فتة بالكبدة المتبلة والثوم",
-        rating: 4.5,
-        ratingCount: 112
-    },
 
-    // ورق بلدي
+    // أطباق رئيسية
     {
-        id: 37,
-        name: "ورقة لحمة بلدي",
-        category: "ورق",
-        price: 95,
+        id: 20,
+        name: "ورقة لحمة",
+        category: "أطباق رئيسية",
+        price: 365,
         image: "https://images.unsplash.com/photo-1625944230945-1b7dd3b949ab?w=400&h=300&fit=crop",
         description: "ورقة لحمة بلدي محشية بالأرز والتوابل",
+        rating: 5,
+        ratingCount: 156,
+        isSpecial: true
+    },
+    {
+        id: 21,
+        name: "بورمة",
+        category: "أطباق رئيسية",
+        price: 300,
+        image: "https://images.unsplash.com/photo-1596797038530-2c107229654b?w=400&h=300&fit=crop",
+        description: "طبق بورمة تقليدي باللحمة والبهارات",
+        rating: 4.5,
+        ratingCount: 134
+    },
+    {
+        id: 22,
+        name: "موزة ضاني خلطة",
+        category: "أطباق رئيسية",
+        price: 530,
+        image: "https://images.unsplash.com/photo-1529692236671-f1f6cf9683ba?w=400&h=300&fit=crop",
+        description: "موزة ضاني كاملة بالخلطة المميزة",
+        rating: 5,
+        ratingCount: 198,
+        isSpecial: true
+    },
+    {
+        id: 23,
+        name: "موزة بتلو خلطة",
+        category: "أطباق رئيسية",
+        price: 500,
+        image: "https://images.unsplash.com/photo-1529692236671-f1f6cf9683ba?w=400&h=300&fit=crop",
+        description: "موزة بتلو بالخلطة والبهارات الخاصة",
+        rating: 5,
+        ratingCount: 187,
+        isSpecial: true
+    },
+    {
+        id: 24,
+        name: "مزاليكيا",
+        category: "أطباق رئيسية",
+        price: 350,
+        image: "https://images.unsplash.com/photo-1596797038530-2c107229654b?w=400&h=300&fit=crop",
+        description: "طبق مزاليكيا باللحمة والأرز",
+        rating: 4.5,
+        ratingCount: 123
+    },
+    {
+        id: 25,
+        name: "كتف بتلو",
+        category: "أطباق رئيسية",
+        price: 700,
+        image: "https://images.unsplash.com/photo-1544025162-d76694265947?w=400&h=300&fit=crop",
+        description: "كتف بتلو كاملة مشوية أو مطبوخة",
         rating: 5,
         ratingCount: 167,
         isSpecial: true
     },
     {
-        id: 38,
-        name: "ورقة كبدة بلدي",
-        category: "ورق",
-        price: 90,
-        image: "https://images.unsplash.com/photo-1625944230945-1b7dd3b949ab?w=400&h=300&fit=crop",
-        description: "ورقة كبدة بلدي متبلة بالبهارات الخاصة",
+        id: 26,
+        name: "كتف ضاني",
+        category: "أطباق رئيسية",
+        price: 750,
+        image: "https://images.unsplash.com/photo-1544025162-d76694265947?w=400&h=300&fit=crop",
+        description: "كتف ضاني كاملة بالتوابل البلدية",
+        rating: 5,
+        ratingCount: 189,
+        isSpecial: true
+    },
+    {
+        id: 27,
+        name: "فراخ بانيه بالمكرونة",
+        category: "أطباق رئيسية",
+        price: 280,
+        image: "https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=400&h=300&fit=crop",
+        description: "صدور فراخ بانيه مقرمشة مع مكرونة",
+        rating: 4.5,
+        ratingCount: 145
+    },
+    {
+        id: 28,
+        name: "رقاق لحمة",
+        category: "أطباق رئيسية",
+        price: 220,
+        image: "https://images.unsplash.com/photo-1596797038530-2c107229654b?w=400&h=300&fit=crop",
+        description: "رقاق باللحمة المفرومة والصلصة",
+        rating: 4.5,
+        ratingCount: 112
+    },
+    {
+        id: 29,
+        name: "كبدة دبس رومان",
+        category: "أطباق رئيسية",
+        price: 120,
+        image: "https://images.unsplash.com/photo-1603360946369-dc9bb6258143?w=400&h=300&fit=crop",
+        description: "كبدة مطبوخة بدبس الرومان",
         rating: 4.5,
         ratingCount: 134
     },
     {
-        id: 39,
-        name: "ورقة سجق بلدي",
-        category: "ورق",
-        price: 85,
-        image: "https://images.unsplash.com/photo-1625944230945-1b7dd3b949ab?w=400&h=300&fit=crop",
-        description: "ورقة سجق بلدي حار ولذيذ",
+        id: 30,
+        name: "سجق شرقي",
+        category: "أطباق رئيسية",
+        price: 220,
+        image: "https://images.unsplash.com/photo-1621852004158-f3bc188ace2d?w=400&h=300&fit=crop",
+        description: "سجق شرقي حار بالبهارات الخاصة",
+        rating: 4.5,
+        ratingCount: 156
+    },
+
+    // طواجن
+    {
+        id: 31,
+        name: "طاجن خضار مشكل باللحمة",
+        category: "طواجن",
+        price: 220,
+        image: "https://images.unsplash.com/photo-1547592166-23ac45744acd?w=400&h=300&fit=crop",
+        description: "طاجن خضار متنوعة مع اللحمة",
         rating: 4.5,
         ratingCount: 98
+    },
+    {
+        id: 32,
+        name: "طاجن ورق عنب بالكوارع",
+        category: "طواجن",
+        price: 320,
+        image: "https://images.unsplash.com/photo-1625944230945-1b7dd3b949ab?w=400&h=300&fit=crop",
+        description: "طاجن ورق عنب مع كوارع طرية",
+        rating: 5,
+        ratingCount: 145,
+        isSpecial: true
+    },
+    {
+        id: 33,
+        name: "طاجن ورق عنب بالريش",
+        category: "طواجن",
+        price: 350,
+        image: "https://images.unsplash.com/photo-1625944230945-1b7dd3b949ab?w=400&h=300&fit=crop",
+        description: "طاجن ورق عنب مع ريش ضاني",
+        rating: 5,
+        ratingCount: 134,
+        isSpecial: true
+    },
+    {
+        id: 34,
+        name: "طاجن عكاوي",
+        category: "طواجن",
+        price: 320,
+        image: "https://images.unsplash.com/photo-1547592166-23ac45744acd?w=400&h=300&fit=crop",
+        description: "طاجن عكاوي باللحمة والصلصة",
+        rating: 4.5,
+        ratingCount: 112
+    },
+    {
+        id: 35,
+        name: "طاجن كوارع",
+        category: "طواجن",
+        price: 320,
+        image: "https://images.unsplash.com/photo-1547592166-23ac45744acd?w=400&h=300&fit=crop",
+        description: "طاجن كوارع بالصلصة الحمراء",
+        rating: 5,
+        ratingCount: 156
+    },
+    {
+        id: 36,
+        name: "طاجن بامية",
+        category: "طواجن",
+        price: 80,
+        image: "https://images.unsplash.com/photo-1606756790138-261d2b21cd75?w=400&h=300&fit=crop",
+        description: "طاجن بامية بالصلصة الطازجة",
+        rating: 4,
+        ratingCount: 87
+    },
+    {
+        id: 37,
+        name: "طاجن ملوخية سادة",
+        category: "طواجن",
+        price: 70,
+        image: "https://images.unsplash.com/photo-1606756790138-261d2b21cd75?w=400&h=300&fit=crop",
+        description: "طاجن ملوخية خضراء ناعمة",
+        rating: 4,
+        ratingCount: 76
+    },
+    {
+        id: 38,
+        name: "طاجن ملوخية باللحمة",
+        category: "طواجن",
+        price: 150,
+        image: "https://images.unsplash.com/photo-1606756790138-261d2b21cd75?w=400&h=300&fit=crop",
+        description: "طاجن ملوخية مع قطع اللحمة",
+        rating: 4.5,
+        ratingCount: 123
+    },
+    {
+        id: 39,
+        name: "طاجن لسان باللحمة",
+        category: "طواجن",
+        price: 200,
+        image: "https://images.unsplash.com/photo-1551248429-40975aa4de74?w=400&h=300&fit=crop",
+        description: "طاجن لسان عصفور مع اللحمة",
+        rating: 4.5,
+        ratingCount: 98
+    },
+    {
+        id: 40,
+        name: "طاجن ريش بتلو/ضاني",
+        category: "طواجن",
+        price: 380,
+        image: "https://images.unsplash.com/photo-1547592166-23ac45744acd?w=400&h=300&fit=crop",
+        description: "طاجن ريش مطبوخة بالصلصة",
+        rating: 5,
+        ratingCount: 167,
+        isSpecial: true
+    },
+    {
+        id: 41,
+        name: "طاجن لحمة بالبصل",
+        category: "طواجن",
+        price: 220,
+        image: "https://images.unsplash.com/photo-1547592166-23ac45744acd?w=400&h=300&fit=crop",
+        description: "طاجن لحمة بالبصل المكرمل",
+        rating: 4.5,
+        ratingCount: 112
+    },
+
+    // مكرونات وأرز
+    {
+        id: 42,
+        name: "مكرونة فرن",
+        category: "مكرونات وأرز",
+        price: 180,
+        image: "https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=400&h=300&fit=crop",
+        description: "مكرونة فرن بالبشاميل والجبنة",
+        rating: 4.5,
+        ratingCount: 156
+    },
+    {
+        id: 43,
+        name: "أرز معمر سادة",
+        category: "مكرونات وأرز",
+        price: 80,
+        image: "https://images.unsplash.com/photo-1596797038530-2c107229654b?w=400&h=300&fit=crop",
+        description: "أرز معمر بالسمن البلدي",
+        rating: 4,
+        ratingCount: 89
+    },
+    {
+        id: 44,
+        name: "أرز معمر باللحمة",
+        category: "مكرونات وأرز",
+        price: 180,
+        image: "https://images.unsplash.com/photo-1596797038530-2c107229654b?w=400&h=300&fit=crop",
+        description: "أرز معمر مع قطع اللحمة",
+        rating: 4.5,
+        ratingCount: 134
+    },
+    {
+        id: 45,
+        name: "أرز بسمتي",
+        category: "مكرونات وأرز",
+        price: 70,
+        image: "https://images.unsplash.com/photo-1596797038530-2c107229654b?w=400&h=300&fit=crop",
+        description: "أرز بسمتي أبيض مفلفل",
+        rating: 4,
+        ratingCount: 76
+    },
+    {
+        id: 46,
+        name: "أرز بالشعرية",
+        category: "مكرونات وأرز",
+        price: 70,
+        image: "https://images.unsplash.com/photo-1596797038530-2c107229654b?w=400&h=300&fit=crop",
+        description: "أرز مع الشعرية المحمرة",
+        rating: 4,
+        ratingCount: 87
+    },
+
+    // فراخ وطيور
+    {
+        id: 47,
+        name: "فرخة مشوية",
+        category: "فراخ وطيور",
+        price: 370,
+        image: "https://images.unsplash.com/photo-1598103442097-8b74394b95c6?w=400&h=300&fit=crop",
+        description: "فرخة كاملة مشوية على الفحم",
+        rating: 5,
+        ratingCount: 178
+    },
+    {
+        id: 48,
+        name: "نصف فرخة مشوية",
+        category: "فراخ وطيور",
+        price: 230,
+        image: "https://images.unsplash.com/photo-1598103442097-8b74394b95c6?w=400&h=300&fit=crop",
+        description: "نصف فرخة مشوية بالتوابل",
+        rating: 5,
+        ratingCount: 145
+    },
+    {
+        id: 49,
+        name: "فرخة محشية",
+        category: "فراخ وطيور",
+        price: 420,
+        image: "https://images.unsplash.com/photo-1598103442097-8b74394b95c6?w=400&h=300&fit=crop",
+        description: "فرخة محشية بالأرز والمكسرات",
+        rating: 5,
+        ratingCount: 189,
+        isSpecial: true
+    },
+    {
+        id: 50,
+        name: "نصف فرخة ترك",
+        category: "فراخ وطيور",
+        price: 230,
+        image: "https://images.unsplash.com/photo-1598103442097-8b74394b95c6?w=400&h=300&fit=crop",
+        description: "نصف فرخة على الطريقة التركية",
+        rating: 4.5,
+        ratingCount: 112
+    },
+    {
+        id: 51,
+        name: "حمام محشي",
+        category: "فراخ وطيور",
+        price: 220,
+        image: "https://images.unsplash.com/photo-1612525676333-766257238c50?w=400&h=300&fit=crop",
+        description: "حمام محشي بالأرز والفريك",
+        rating: 5,
+        ratingCount: 167,
+        isSpecial: true
+    },
+    {
+        id: 52,
+        name: "نصف بطة",
+        category: "فراخ وطيور",
+        price: 425,
+        image: "https://images.unsplash.com/photo-1612525676333-766257238c50?w=400&h=300&fit=crop",
+        description: "نصف بطة مشوية أو محمرة",
+        rating: 5,
+        ratingCount: 134,
+        isSpecial: true
+    },
+    {
+        id: 53,
+        name: "نصف فرخة تندوري",
+        category: "فراخ وطيور",
+        price: 240,
+        image: "https://images.unsplash.com/photo-1598103442097-8b74394b95c6?w=400&h=300&fit=crop",
+        description: "نصف فرخة على الطريقة الهندية",
+        rating: 4.5,
+        ratingCount: 123
+    },
+    {
+        id: 54,
+        name: "فرخة تندوري",
+        category: "فراخ وطيور",
+        price: 450,
+        image: "https://images.unsplash.com/photo-1598103442097-8b74394b95c6?w=400&h=300&fit=crop",
+        description: "فرخة كاملة تندوري بالبهارات الهندية",
+        rating: 5,
+        ratingCount: 156,
+        isSpecial: true
+    },
+
+    // محاشي
+    {
+        id: 55,
+        name: "ممبار",
+        category: "محاشي",
+        price: 150,
+        image: "https://images.unsplash.com/photo-1625944230945-1b7dd3b949ab?w=400&h=300&fit=crop",
+        description: "ممبار محشي بالأرز والبهارات",
+        rating: 4.5,
+        ratingCount: 145
+    },
+    {
+        id: 56,
+        name: "محاشي مشكل",
+        category: "محاشي",
+        price: 120,
+        image: "https://images.unsplash.com/photo-1625944230945-1b7dd3b949ab?w=400&h=300&fit=crop",
+        description: "تشكيلة محاشي متنوعة",
+        rating: 4.5,
+        ratingCount: 134
+    },
+    {
+        id: 57,
+        name: "ورق عنب",
+        category: "محاشي",
+        price: 120,
+        image: "https://images.unsplash.com/photo-1625944230945-1b7dd3b949ab?w=400&h=300&fit=crop",
+        description: "ورق عنب محشي بالأرز واللحمة",
+        rating: 5,
+        ratingCount: 178
+    },
+    {
+        id: 58,
+        name: "محشي كرنب",
+        category: "محاشي",
+        price: 110,
+        image: "https://images.unsplash.com/photo-1625944230945-1b7dd3b949ab?w=400&h=300&fit=crop",
+        description: "كرنب محشي بالأرز واللحمة",
+        rating: 4.5,
+        ratingCount: 123
+    },
+    {
+        id: 59,
+        name: "سمبوسك جبنة",
+        category: "محاشي",
+        price: 100,
+        image: "https://images.unsplash.com/photo-1601050690597-df0568f70950?w=400&h=300&fit=crop",
+        description: "سمبوسك محشية بالجبنة",
+        rating: 4,
+        ratingCount: 112
+    },
+    {
+        id: 60,
+        name: "سمبوسك لحمة",
+        category: "محاشي",
+        price: 120,
+        image: "https://images.unsplash.com/photo-1601050690597-df0568f70950?w=400&h=300&fit=crop",
+        description: "سمبوسك محشية باللحمة المفرومة",
+        rating: 4.5,
+        ratingCount: 134
+    },
+
+    // أرز خاص
+    {
+        id: 61,
+        name: "كبسة دجاج",
+        category: "أرز خاص",
+        price: 310,
+        image: "https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=400&h=300&fit=crop",
+        description: "كبسة دجاج على الطريقة الخليجية",
+        rating: 5,
+        ratingCount: 198,
+        isSpecial: true
+    },
+    {
+        id: 62,
+        name: "برياني لحمة",
+        category: "أرز خاص",
+        price: 480,
+        image: "https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=400&h=300&fit=crop",
+        description: "برياني لحمة بالبهارات الهندية",
+        rating: 5,
+        ratingCount: 189,
+        isSpecial: true
+    },
+    {
+        id: 63,
+        name: "برياني دجاج",
+        category: "أرز خاص",
+        price: 310,
+        image: "https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=400&h=300&fit=crop",
+        description: "برياني دجاج بالتوابل الآسيوية",
+        rating: 5,
+        ratingCount: 167
+    },
+    {
+        id: 64,
+        name: "مندي فراخ",
+        category: "أرز خاص",
+        price: 310,
+        image: "https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=400&h=300&fit=crop",
+        description: "مندي فراخ باللحمة المدخنة",
+        rating: 5,
+        ratingCount: 178
+    },
+    {
+        id: 65,
+        name: "مندي لحمة",
+        category: "أرز خاص",
+        price: 480,
+        image: "https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=400&h=300&fit=crop",
+        description: "مندي لحمة على الطريقة اليمنية",
+        rating: 5,
+        ratingCount: 201,
+        isSpecial: true
+    },
+
+    // ساندوتشات
+    {
+        id: 66,
+        name: "سندوتش كفتة",
+        category: "ساندوتشات",
+        price: 100,
+        image: "https://images.unsplash.com/photo-1619740455993-32e66b3c9e27?w=400&h=300&fit=crop",
+        description: "سندوتش كفتة مشوية مع الخضار",
+        rating: 4.5,
+        ratingCount: 234
+    },
+    {
+        id: 67,
+        name: "سندوتش طرب",
+        category: "ساندوتشات",
+        price: 120,
+        image: "https://images.unsplash.com/photo-1603133872878-684f208fb84b?w=400&h=300&fit=crop",
+        description: "سندوتش طرب مشوي بالتوابل",
+        rating: 4.5,
+        ratingCount: 189
+    },
+    {
+        id: 68,
+        name: "سندوتش لحمة",
+        category: "ساندوتشات",
+        price: 120,
+        image: "https://images.unsplash.com/photo-1619740455993-32e66b3c9e27?w=400&h=300&fit=crop",
+        description: "سندوتش لحمة مشوية مع الصلصة",
+        rating: 4.5,
+        ratingCount: 198
+    },
+    {
+        id: 69,
+        name: "سندوتش شيش",
+        category: "ساندوتشات",
+        price: 90,
+        image: "https://images.unsplash.com/photo-1619740455993-32e66b3c9e27?w=400&h=300&fit=crop",
+        description: "سندوتش شيش كباب مع الخضار",
+        rating: 4.5,
+        ratingCount: 167
+    },
+    {
+        id: 70,
+        name: "سندوتش سجق مشوي",
+        category: "ساندوتشات",
+        price: 90,
+        image: "https://images.unsplash.com/photo-1621852004158-f3bc188ace2d?w=400&h=300&fit=crop",
+        description: "سندوتش سجق حار مشوي",
+        rating: 4,
+        ratingCount: 145
+    },
+
+    // مشويات
+    {
+        id: 71,
+        name: "مشكل لحمة وكفتة - ثلث كيلو",
+        category: "مشويات",
+        price: 400,
+        image: "https://images.unsplash.com/photo-1603360946369-dc9bb6258143?w=400&h=300&fit=crop",
+        description: "مشكل لحمة مشوية وكفتة (ثلث كيلو)",
+        rating: 5,
+        ratingCount: 198,
+        isSpecial: true
+    },
+    {
+        id: 72,
+        name: "مشكل لحمة وكفتة - نصف كيلو",
+        category: "مشويات",
+        price: 600,
+        image: "https://images.unsplash.com/photo-1603360946369-dc9bb6258143?w=400&h=300&fit=crop",
+        description: "مشكل لحمة مشوية وكفتة (نصف كيلو)",
+        rating: 5,
+        ratingCount: 234,
+        isSpecial: true
+    },
+    {
+        id: 73,
+        name: "مشكل لحمة وكفتة - كيلو",
+        category: "مشويات",
+        price: 1200,
+        image: "https://images.unsplash.com/photo-1603360946369-dc9bb6258143?w=400&h=300&fit=crop",
+        description: "مشكل لحمة مشوية وكفتة (كيلو كامل)",
+        rating: 5,
+        ratingCount: 289,
+        isSpecial: true
+    },
+    {
+        id: 74,
+        name: "مشكل كباب وكفتة - ثلث كيلو",
+        category: "مشويات",
+        price: 430,
+        image: "https://images.unsplash.com/photo-1603360946369-dc9bb6258143?w=400&h=300&fit=crop",
+        description: "مشكل كباب وكفتة مشوي (ثلث كيلو)",
+        rating: 5,
+        ratingCount: 201
+    },
+    {
+        id: 75,
+        name: "مشكل كباب وكفتة - نصف كيلو",
+        category: "مشويات",
+        price: 645,
+        image: "https://images.unsplash.com/photo-1603360946369-dc9bb6258143?w=400&h=300&fit=crop",
+        description: "مشكل كباب وكفتة مشوي (نصف كيلو)",
+        rating: 5,
+        ratingCount: 223
+    },
+    {
+        id: 76,
+        name: "مشكل كباب وكفتة - كيلو",
+        category: "مشويات",
+        price: 1290,
+        image: "https://images.unsplash.com/photo-1603360946369-dc9bb6258143?w=400&h=300&fit=crop",
+        description: "مشكل كباب وكفتة مشوي (كيلو كامل)",
+        rating: 5,
+        ratingCount: 267,
+        isSpecial: true
+    },
+    {
+        id: 77,
+        name: "كفتة - ثلث كيلو",
+        category: "مشويات",
+        price: 350,
+        image: "https://images.unsplash.com/photo-1529042410759-befb1204b468?w=400&h=300&fit=crop",
+        description: "كفتة ضاني مشوية (ثلث كيلو)",
+        rating: 5,
+        ratingCount: 189
+    },
+    {
+        id: 78,
+        name: "كفتة - نصف كيلو",
+        category: "مشويات",
+        price: 525,
+        image: "https://images.unsplash.com/photo-1529042410759-befb1204b468?w=400&h=300&fit=crop",
+        description: "كفتة ضاني مشوية (نصف كيلو)",
+        rating: 5,
+        ratingCount: 212
+    },
+    {
+        id: 79,
+        name: "كفتة - كيلو",
+        category: "مشويات",
+        price: 1050,
+        image: "https://images.unsplash.com/photo-1529042410759-befb1204b468?w=400&h=300&fit=crop",
+        description: "كفتة ضاني مشوية (كيلو كامل)",
+        rating: 5,
+        ratingCount: 256,
+        isSpecial: true
+    },
+    {
+        id: 80,
+        name: "كباب بتلو - ثلث كيلو",
+        category: "مشويات",
+        price: 450,
+        image: "https://images.unsplash.com/photo-1603360946369-dc9bb6258143?w=400&h=300&fit=crop",
+        description: "كباب بتلو مشوي على الفحم (ثلث كيلو)",
+        rating: 5,
+        ratingCount: 198,
+        isSpecial: true
+    },
+    {
+        id: 81,
+        name: "كباب بتلو - نصف كيلو",
+        category: "مشويات",
+        price: 740,
+        image: "https://images.unsplash.com/photo-1603360946369-dc9bb6258143?w=400&h=300&fit=crop",
+        description: "كباب بتلو مشوي على الفحم (نصف كيلو)",
+        rating: 5,
+        ratingCount: 234
+    },
+    {
+        id: 82,
+        name: "كباب بتلو - كيلو",
+        category: "مشويات",
+        price: 1350,
+        image: "https://images.unsplash.com/photo-1603360946369-dc9bb6258143?w=400&h=300&fit=crop",
+        description: "كباب بتلو مشوي على الفحم (كيلو كامل)",
+        rating: 5,
+        ratingCount: 289,
+        isSpecial: true
+    },
+    {
+        id: 83,
+        name: "كباب ضاني - ثلث كيلو",
+        category: "مشويات",
+        price: 450,
+        image: "https://images.unsplash.com/photo-1603360946369-dc9bb6258143?w=400&h=300&fit=crop",
+        description: "كباب ضاني مشوي بالبهارات (ثلث كيلو)",
+        rating: 5,
+        ratingCount: 201,
+        isSpecial: true
+    },
+    {
+        id: 84,
+        name: "كباب ضاني - نصف كيلو",
+        category: "مشويات",
+        price: 740,
+        image: "https://images.unsplash.com/photo-1603360946369-dc9bb6258143?w=400&h=300&fit=crop",
+        description: "كباب ضاني مشوي بالبهارات (نصف كيلو)",
+        rating: 5,
+        ratingCount: 245
+    },
+    {
+        id: 85,
+        name: "كباب ضاني - كيلو",
+        category: "مشويات",
+        price: 1350,
+        image: "https://images.unsplash.com/photo-1603360946369-dc9bb6258143?w=400&h=300&fit=crop",
+        description: "كباب ضاني مشوي بالبهارات (كيلو كامل)",
+        rating: 5,
+        ratingCount: 298,
+        isSpecial: true
+    },
+    {
+        id: 86,
+        name: "ريش ضاني - ثلث كيلو",
+        category: "مشويات",
+        price: 450,
+        image: "https://images.unsplash.com/photo-1529692236671-f1f6cf9683ba?w=400&h=300&fit=crop",
+        description: "ريش ضاني مشوية على الفحم (ثلث كيلو)",
+        rating: 5,
+        ratingCount: 234,
+        isSpecial: true
+    },
+    {
+        id: 87,
+        name: "ريش ضاني - نصف كيلو",
+        category: "مشويات",
+        price: 740,
+        image: "https://images.unsplash.com/photo-1529692236671-f1f6cf9683ba?w=400&h=300&fit=crop",
+        description: "ريش ضاني مشوية على الفحم (نصف كيلو)",
+        rating: 5,
+        ratingCount: 267
+    },
+    {
+        id: 88,
+        name: "ريش ضاني - كيلو",
+        category: "مشويات",
+        price: 1350,
+        image: "https://images.unsplash.com/photo-1529692236671-f1f6cf9683ba?w=400&h=300&fit=crop",
+        description: "ريش ضاني مشوية على الفحم (كيلو كامل)",
+        rating: 5,
+        ratingCount: 312,
+        isSpecial: true
+    },
+    {
+        id: 89,
+        name: "ريش بتلو - ثلث كيلو",
+        category: "مشويات",
+        price: 450,
+        image: "https://images.unsplash.com/photo-1529692236671-f1f6cf9683ba?w=400&h=300&fit=crop",
+        description: "ريش بتلو طرية مشوية (ثلث كيلو)",
+        rating: 5,
+        ratingCount: 223,
+        isSpecial: true
+    },
+    {
+        id: 90,
+        name: "ريش بتلو - نصف كيلو",
+        category: "مشويات",
+        price: 740,
+        image: "https://images.unsplash.com/photo-1529692236671-f1f6cf9683ba?w=400&h=300&fit=crop",
+        description: "ريش بتلو طرية مشوية (نصف كيلو)",
+        rating: 5,
+        ratingCount: 256
+    },
+    {
+        id: 91,
+        name: "ريش بتلو - كيلو",
+        category: "مشويات",
+        price: 1350,
+        image: "https://images.unsplash.com/photo-1529692236671-f1f6cf9683ba?w=400&h=300&fit=crop",
+        description: "ريش بتلو طرية مشوية (كيلو كامل)",
+        rating: 5,
+        ratingCount: 298,
+        isSpecial: true
+    },
+    {
+        id: 92,
+        name: "طرب - ثلث كيلو",
+        category: "مشويات",
+        price: 380,
+        image: "https://images.unsplash.com/photo-1603133872878-684f208fb84b?w=400&h=300&fit=crop",
+        description: "طرب مشوي بنكهة مميزة (ثلث كيلو)",
+        rating: 4.5,
+        ratingCount: 178
+    },
+    {
+        id: 93,
+        name: "طرب - نصف كيلو",
+        category: "مشويات",
+        price: 600,
+        image: "https://images.unsplash.com/photo-1603133872878-684f208fb84b?w=400&h=300&fit=crop",
+        description: "طرب مشوي بنكهة مميزة (نصف كيلو)",
+        rating: 4.5,
+        ratingCount: 201
+    },
+    {
+        id: 94,
+        name: "طرب - كيلو",
+        category: "مشويات",
+        price: 1200,
+        image: "https://images.unsplash.com/photo-1603133872878-684f208fb84b?w=400&h=300&fit=crop",
+        description: "طرب مشوي بنكهة مميزة (كيلو كامل)",
+        rating: 5,
+        ratingCount: 245
+    },
+    {
+        id: 95,
+        name: "روزبيف - ثلث كيلو",
+        category: "مشويات",
+        price: 400,
+        image: "https://images.unsplash.com/photo-1544025162-d76694265947?w=400&h=300&fit=crop",
+        description: "روزبيف لحم مشوي (ثلث كيلو)",
+        rating: 5,
+        ratingCount: 189
+    },
+    {
+        id: 96,
+        name: "روزبيف - نصف كيلو",
+        category: "مشويات",
+        price: 600,
+        image: "https://images.unsplash.com/photo-1544025162-d76694265947?w=400&h=300&fit=crop",
+        description: "روزبيف لحم مشوي (نصف كيلو)",
+        rating: 5,
+        ratingCount: 212
+    },
+    {
+        id: 97,
+        name: "روزبيف - كيلو",
+        category: "مشويات",
+        price: 1200,
+        image: "https://images.unsplash.com/photo-1544025162-d76694265947?w=400&h=300&fit=crop",
+        description: "روزبيف لحم مشوي (كيلو كامل)",
+        rating: 5,
+        ratingCount: 267
+    },
+    {
+        id: 98,
+        name: "فيليه - ثلث كيلو",
+        category: "مشويات",
+        price: 400,
+        image: "https://images.unsplash.com/photo-1544025162-d76694265947?w=400&h=300&fit=crop",
+        description: "فيليه لحم طري مشوي (ثلث كيلو)",
+        rating: 5,
+        ratingCount: 198,
+        isSpecial: true
+    },
+    {
+        id: 99,
+        name: "فيليه - نصف كيلو",
+        category: "مشويات",
+        price: 600,
+        image: "https://images.unsplash.com/photo-1544025162-d76694265947?w=400&h=300&fit=crop",
+        description: "فيليه لحم طري مشوي (نصف كيلو)",
+        rating: 5,
+        ratingCount: 223
+    },
+    {
+        id: 100,
+        name: "فيليه - كيلو",
+        category: "مشويات",
+        price: 1200,
+        image: "https://images.unsplash.com/photo-1544025162-d76694265947?w=400&h=300&fit=crop",
+        description: "فيليه لحم طري مشوي (كيلو كامل)",
+        rating: 5,
+        ratingCount: 278,
+        isSpecial: true
+    },
+    {
+        id: 101,
+        name: "كبدة مشوية - ثلث كيلو",
+        category: "مشويات",
+        price: 370,
+        image: "https://images.unsplash.com/photo-1603360946369-dc9bb6258143?w=400&h=300&fit=crop",
+        description: "كبدة مشوية بالتوابل (ثلث كيلو)",
+        rating: 4.5,
+        ratingCount: 167
+    },
+    {
+        id: 102,
+        name: "كبدة مشوية - نصف كيلو",
+        category: "مشويات",
+        price: 500,
+        image: "https://images.unsplash.com/photo-1603360946369-dc9bb6258143?w=400&h=300&fit=crop",
+        description: "كبدة مشوية بالتوابل (نصف كيلو)",
+        rating: 4.5,
+        ratingCount: 189
+    },
+    {
+        id: 103,
+        name: "كبدة مشوية - كيلو",
+        category: "مشويات",
+        price: 1000,
+        image: "https://images.unsplash.com/photo-1603360946369-dc9bb6258143?w=400&h=300&fit=crop",
+        description: "كبدة مشوية بالتوابل (كيلو كامل)",
+        rating: 5,
+        ratingCount: 234
+    },
+    {
+        id: 104,
+        name: "كلاوي - ثلث كيلو",
+        category: "مشويات",
+        price: 290,
+        image: "https://images.unsplash.com/photo-1603360946369-dc9bb6258143?w=400&h=300&fit=crop",
+        description: "كلاوي مشوية بالليمون (ثلث كيلو)",
+        rating: 4,
+        ratingCount: 134
+    },
+    {
+        id: 105,
+        name: "كلاوي - نصف كيلو",
+        category: "مشويات",
+        price: 480,
+        image: "https://images.unsplash.com/photo-1603360946369-dc9bb6258143?w=400&h=300&fit=crop",
+        description: "كلاوي مشوية بالليمون (نصف كيلو)",
+        rating: 4,
+        ratingCount: 156
+    },
+    {
+        id: 106,
+        name: "كلاوي - كيلو",
+        category: "مشويات",
+        price: 960,
+        image: "https://images.unsplash.com/photo-1603360946369-dc9bb6258143?w=400&h=300&fit=crop",
+        description: "كلاوي مشوية بالليمون (كيلو كامل)",
+        rating: 4.5,
+        ratingCount: 189
+    },
+    {
+        id: 107,
+        name: "شيش طاووق - ثلث كيلو",
+        category: "مشويات",
+        price: 250,
+        image: "https://images.unsplash.com/photo-1599487488170-d11ec9c172f0?w=400&h=300&fit=crop",
+        description: "شيش طاووق دجاج متبل (ثلث كيلو)",
+        rating: 4.5,
+        ratingCount: 198
+    },
+    {
+        id: 108,
+        name: "شيش طاووق - نصف كيلو",
+        category: "مشويات",
+        price: 300,
+        image: "https://images.unsplash.com/photo-1599487488170-d11ec9c172f0?w=400&h=300&fit=crop",
+        description: "شيش طاووق دجاج متبل (نصف كيلو)",
+        rating: 4.5,
+        ratingCount: 223
+    },
+    {
+        id: 109,
+        name: "شيش طاووق - كيلو",
+        category: "مشويات",
+        price: 600,
+        image: "https://images.unsplash.com/photo-1599487488170-d11ec9c172f0?w=400&h=300&fit=crop",
+        description: "شيش طاووق دجاج متبل (كيلو كامل)",
+        rating: 5,
+        ratingCount: 267
+    },
+    {
+        id: 110,
+        name: "سجق مشوي - ثلث كيلو",
+        category: "مشويات",
+        price: 270,
+        image: "https://images.unsplash.com/photo-1621852004158-f3bc188ace2d?w=400&h=300&fit=crop",
+        description: "سجق حار مشوي على الفحم (ثلث كيلو)",
+        rating: 4.5,
+        ratingCount: 167
+    },
+    {
+        id: 111,
+        name: "كفتة فراخ - ثلث كيلو",
+        category: "مشويات",
+        price: 220,
+        image: "https://images.unsplash.com/photo-1599487488170-d11ec9c172f0?w=400&h=300&fit=crop",
+        description: "كفتة فراخ مشوية طرية (ثلث كيلو)",
+        rating: 4.5,
+        ratingCount: 145
+    },
+    {
+        id: 112,
+        name: "مشكل ميكس لحوم - نصف كيلو",
+        category: "مشويات",
+        price: 700,
+        image: "https://images.unsplash.com/photo-1603360946369-dc9bb6258143?w=400&h=300&fit=crop",
+        description: "تشكيلة لحوم مشوية مختلفة (نصف كيلو)",
+        rating: 5,
+        ratingCount: 234,
+        isSpecial: true
+    },
+    {
+        id: 113,
+        name: "مشكل ميكس لحوم - كيلو",
+        category: "مشويات",
+        price: 1400,
+        image: "https://images.unsplash.com/photo-1603360946369-dc9bb6258143?w=400&h=300&fit=crop",
+        description: "تشكيلة لحوم مشوية مختلفة (كيلو كامل)",
+        rating: 5,
+        ratingCount: 298,
+        isSpecial: true
     }
 ];
 
