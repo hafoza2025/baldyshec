@@ -59,25 +59,7 @@
   document.documentElement.classList.remove('dark');
   document.body.classList.remove('dark');
 </script>
-<script>
-  // محاولة إلغاء وضع الداكن الإجباري في Samsung Internet
-  const forceLightMode = () => {
-    document.documentElement.style.backgroundColor = '#ffffff';
-    document.documentElement.style.colorScheme = 'light';
-    document.querySelectorAll('*').forEach(el => {
-      el.style.colorScheme = 'light';
-      el.style.forcedColorAdjust = 'none';
-      el.style.filter = 'none';
-      el.style.mixBlendMode = 'normal';
-      el.style.backgroundColor = el.style.backgroundColor || '#ffffff';
-    });
-  };
 
-  // نفذ عند التحميل
-  window.addEventListener('load', forceLightMode);
-  // وراقب أي تغيير في الوضع
-  window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', forceLightMode);
-</script>
 
 
 </head>
