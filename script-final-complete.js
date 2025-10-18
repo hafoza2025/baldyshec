@@ -64,7 +64,7 @@ const menuData = [
         name: "طحينة",
         category: "مقبلات",
         price: 25,
-        image: "https://images.unsplash.com/photo-1589647363585-f4a7d3877b10?w=400&h=300&fit=crop",
+        image: "https://i.pinimg.com/736x/8a/9c/61/8a9c61bfc3eb30ebb66cd630804ca932.jpg",
         description: "طحينة سائلة بالليمون والثوم",
         rating: 4,
         ratingCount: 156
