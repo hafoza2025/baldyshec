@@ -31,7 +31,7 @@ const menuData = [
         name: "شوربة كوارع",
         category: "شوربات",
         price: 170,
-        image: "https://images.unsplash.com/photo-1604908815031-ff53e055ef30?w=400&h=300&fit=crop",
+        image: "https://i.pinimg.com/1200x/b5/ef/01/b5ef010b06f781f42137cb1f10c29e46.jpg",
         description: "شوربة كوارع غنية بالكولاجين والنكهة الأصيلة",
         rating: 5,
         ratingCount: 145,
@@ -42,7 +42,7 @@ const menuData = [
         name: "شوربة حمام",
         category: "شوربات",
         price: 80,
-        image: "https://images.unsplash.com/photo-1547592166-23ac45744acd?w=400&h=300&fit=crop",
+        image: "https://i.pinimg.com/736x/ac/41/ce/ac41ce2613e4fddb052516802aa133ee.jpg",
         description: "شوربة حمام دافئة بالتوابل البلدية الأصيلة",
         rating: 4.5,
         ratingCount: 78
@@ -52,7 +52,7 @@ const menuData = [
         name: "شوربة كريمة",
         category: "شوربات",
         price: 80,
-        image: "https://images.unsplash.com/photo-1476718406336-bb5a9690ee2a?w=400&h=300&fit=crop",
+        image: "https://i.pinimg.com/736x/50/37/e0/5037e04f3583a0533187c7120c1a92e4.jpg",
         description: "شوربة كريمة ناعمة وغنية بنكهة الخضار",
         rating: 4.5,
         ratingCount: 92
@@ -74,7 +74,7 @@ const menuData = [
         name: "بابا غنوج",
         category: "مقبلات",
         price: 25,
-        image: "https://images.unsplash.com/photo-1600803907087-f56d462fd26b?w=400&h=300&fit=crop",
+        image: "https://i.pinimg.com/1200x/b5/ca/a6/b5caa6cceed1010d0852d638512ebbf4.jpg",
         description: "باذنجان مشوي بالطحينة والبهارات",
         rating: 4.5,
         ratingCount: 134
@@ -84,7 +84,7 @@ const menuData = [
         name: "سلطة بلدي خضراء",
         category: "مقبلات",
         price: 25,
-        image: "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=400&h=300&fit=crop",
+        image: "https://i.pinimg.com/1200x/67/df/ca/67dfcaa661c69d941687a7012619bc69.jpg",
         description: "سلطة خضراء طازجة بالخضروات الموسمية",
         rating: 4,
         ratingCount: 98
@@ -94,7 +94,7 @@ const menuData = [
         name: "مخلل",
         category: "مقبلات",
         price: 25,
-        image: "https://images.unsplash.com/photo-1589621316382-008455b857cd?w=400&h=300&fit=crop",
+        image: "https://i.pinimg.com/736x/d7/d2/44/d7d24471253eb3770ade21f6abb88b9e.jpg",
         description: "مخلل مشكل بلدي حامض",
         rating: 4,
         ratingCount: 87
