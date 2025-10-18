@@ -21,7 +21,7 @@ const menuData = [
         name: "شوربة لسان",
         category: "شوربات",
         price: 55,
-        image: "https://images.unsplash.com/photo-1588566565463-180a5b2090d2?w=400&h=300&fit=crop",
+        image: "https://i.pinimg.com/1200x/b5/ef/01/b5ef010b06f781f42137cb1f10c29e46.jpg",
         description: "شوربة لسان عصفور بالصلصة الحمراء الطازجة",
         rating: 4,
         ratingCount: 67
@@ -31,7 +31,7 @@ const menuData = [
         name: "شوربة كوارع",
         category: "شوربات",
         price: 170,
-        image: "https://i.pinimg.com/1200x/b5/ef/01/b5ef010b06f781f42137cb1f10c29e46.jpg",
+        image: "https://i.pinimg.com/736x/71/be/bb/71bebbc003e91cf4197879c47533a55c.jpg",
         description: "شوربة كوارع غنية بالكولاجين والنكهة الأصيلة",
         rating: 5,
         ratingCount: 145,
