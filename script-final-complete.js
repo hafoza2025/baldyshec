@@ -11,7 +11,7 @@ const menuData = [
         name: "شوربة خضار",
         category: "شوربات",
         price: 50,
-        image: "https://images.unsplash.com/photo-1547592166-23ac45744acd?w=400&h=300&fit=crop",
+        image: "https://i.pinimg.com/1200x/55/6d/23/556d237cdcdf401ba6399dc51aeb9ef9.jpg",
         description: "شوربة خضار ساخنة بالخضروات الطازجة المتنوعة",
         rating: 4.5,
         ratingCount: 89
